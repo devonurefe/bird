@@ -1,0 +1,85 @@
+/* Reset Css */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Bird */
+.bird{
+    width: 90%;
+    height: 100vh;
+    background: rgb(238, 84, 70);
+    margin: 0 auto;
+    position: relative;
+}
+.birdBody{
+    width: 400px;
+    height: 420px;
+    border-radius: 120px 120px 0 0 ;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    right: 30%;
+   
+}
+.birdEye{
+    width: 75px;
+    height: 75px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    
+}
+.birdEyeB{
+    background: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.birdBeak{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: rgb(194, 197, 18);
+    top: 308px;
+    left: 762px;
+    border-radius: 0 1000px 0 0;
+}
+.hair1{
+    background: crimson;
+    width: 10px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 13.3%;
+    left: 48%;
+    border-radius: 5px 0;
+}
+.hair2{
+    background: rgb(183, 220, 20);
+    width: 10px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 13.3%;
+    left: 42%;
+    border-radius: 5px 0;
+}
+.hair3{
+    background: rgb(56, 191, 224);
+    width: 10px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 13.3%;
+    left: 45%;
+}
