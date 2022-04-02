@@ -137,46 +137,46 @@ console.log(artik)
 
 //for dongusu -- TEKRAR EDEN BIR KODUM VAR VE BUNUN KAC SEFER CALISACAGINIZ BILIYORSAM 'FOR' KULLAN
 
-for (let i= 0; i < 15; i++){
-    console.log("Ben for dongusuyum");  
-}
+// for (let i= 0; i < 15; i++){
+//     console.log("Ben for dongusuyum");  
+// }
 
-//while dongusu -- BIR SARTIMIZ VAR VE KAC TANE OLDUGUNU BILMIYORSAM ' WHILE' KULLAN
+// //while dongusu -- BIR SARTIMIZ VAR VE KAC TANE OLDUGUNU BILMIYORSAM ' WHILE' KULLAN
 
-let sayi = 5;
-while (sayi < 20){
-    console.log("Ben while dongusuyum");
-    sayi++
-}
+// let sayi = 5;
+// while (sayi < 20){
+//     console.log("Ben while dongusuyum");
+//     sayi++
+// }
 
-//do while dongusu -- BIR KOD VAR ILK ONCE BU CALISSIN SONRA SART KONTROL EDILSIN DIYORSAK ' DO-WHILE' KULLAN (MENU GOSTER OLAYINDA OLDUGU GIBI)
+// //do while dongusu -- BIR KOD VAR ILK ONCE BU CALISSIN SONRA SART KONTROL EDILSIN DIYORSAK ' DO-WHILE' KULLAN (MENU GOSTER OLAYINDA OLDUGU GIBI)
 
-let yas = 15
-do{
-    console.log("Ben do-while dongusuyum");
-    yas++
-}while(yas < 30); //SADECE WHILE DA NOKTALI VIRGUL KULLANILIR.
-
-
+// let yas = 15
+// do{
+//     console.log("Ben do-while dongusuyum");
+//     yas++
+// }while(yas < 30); //SADECE WHILE DA NOKTALI VIRGUL KULLANILIR.
 
 
-//break, continue, return kullanimi
 
-//break --> break sartinin oldugu yerde donguden cikar
-for(let i = 0; i < 15; i++){
-    if(i == 9){
-        break;
-    }
-    console.log("Ben Break im");
-}
 
-//continue --> continue oldugu sartinin oldugu ifadeyi atlar donguye devam eder
-for(let i = 0; i < 20; i++){
-    if(i == 11){
-        continue;
-    }
-    console.log("Ben continue yuumm " +i);
-}
+// //break, continue, return kullanimi
+
+// //break --> break sartinin oldugu yerde donguden cikar
+// for(let i = 0; i < 15; i++){
+//     if(i == 9){
+//         break;
+//     }
+//     console.log("Ben Break im");
+// }
+
+// //continue --> continue oldugu sartinin oldugu ifadeyi atlar donguye devam eder
+// for(let i = 0; i < 20; i++){
+//     if(i == 11){
+//         continue;
+//     }
+//     console.log("Ben continue yuumm " +i);
+// }
 
 // Return kullanimi for icinde fonksiyon olursa olur aksi halde
 // illegal return hatasi alinir.
@@ -212,3 +212,212 @@ if(uretilenSayi === kullanicininGirdigiSayi){
     console.log(`Malesef Kazanamadiniz! Tahmininiz: ${kullanicininGirdigiSayi}, Sistemin Urettigi Sayi ${uretilenSayi} `);
 }
 */
+
+
+
+
+
+//UYGULAMALAR
+
+// 1) 3 SAYININ ORTALAMASI BULMA
+
+// let sayi1 = prompt("Lutfen 1. sayiyi giriniz: ");
+// let sayi2 = prompt("Lutfen 2. sayiyi giriniz: ");
+// let sayi3 = prompt("Lutfen 3. sayiyi giriniz: ");
+
+// let sum = (parseInt(sayi1)  + parseInt(sayi2)  + parseInt(sayi3) ) / 3;
+
+// console.log(`Girdiginiz 3 sayinin ortalamasi: ${Math.floor(sum)} dir `);
+
+
+
+//2) KENARLARI GIRILEN UCGENIN CESIDINI BULMA
+
+// let ucgen = parseInt(prompt("Kenar sayisini giriniz:"));
+
+// if (ucgen === 3){
+//     console.log(`Ben bir ucgenim`);
+// }else if(ucgen === 4){
+//     console.log(`Ben bir dortgenim`);
+// }else if(ucgen === 5){
+//     console.log(`Ben bir besgenim`);
+// }else if(ucgen === 6){
+//     console.log(`Ben bir altigenim`);
+// }
+// else{
+//     console.log(`Ben bir senim :)`);
+// }
+
+
+//3) Vize Final gecme notu yapma
+
+// let vize = prompt("Vize notunuzu giriniz:");
+// let final = prompt("Final notunuzu giriniz:");
+
+// let gecmeNotu = parseInt(vize * 0.4) + parseInt(final * 0.6)
+
+// if(gecmeNotu >= 50){
+//     console.log(gecmeNotu);
+//     console.log(`Gecme notunuz: ${gecmeNotu}. Dersi gectiniz Tebrikler`);
+// }else if(gecmeNotu <= 50) {
+//     console.log(`Gecme notunuz: ${gecmeNotu}. Dersi gecemediniz. Bute kaldiniz`)
+//  }
+
+
+//4) Adimizi ekrana 5 kez yazdiran donguelri kullanma
+
+//for ile
+
+// let adim = ("Onur Efe");
+
+// for(i = 0; i < 5; i++){
+//          console.log((i + 1) + " " + adim + " - for");
+// }
+
+
+// //while ile
+
+// let kimim = 0;
+
+// while(kimim < 5){
+//     console.log((kimim +1) + " Onur Efe - while");
+//     kimim++
+// }
+
+// //do while ile
+
+// let benim = 0
+
+// do{
+//     console.log((benim + 1) + " Onur Efe - do while");
+//     benim++
+// }while(benim < 5); // noktali virgul onemli do while icin
+
+
+
+
+
+
+//5) 1 den 100 e kadar sayilarin toplamini yazdir
+
+// let topla = 0
+
+// for(i = 0; i < 100; i++){
+//     topla = topla + i;
+//     //topla += i; ==> bu da 2. gosterim.
+// }
+// console.log(`1 den 100 e kadar olan sayilarin toplami sonucu : ${topla}`);
+
+
+//6) 1 den 10 kadar olan sayilari aralarinda virgukl olacak sekilde yazdir
+
+// let yazdir = "";
+
+// for (let i = 1; i <= 10; i++){
+//     if(i != 10){
+//         yazdir = yazdir + i + ", ";
+//     }else{
+//         yazdir = yazdir + i
+//     }
+    
+// }
+// console.log(yazdir);
+
+
+//7) klavyeden girilen bir sayinin faktoryeli alan uygulama
+
+// let sayi = parseInt(prompt(`faktoryel almak icin bir sayi giriniz; `));
+
+// let faktoryel = 1;
+
+// for (let i = 1; i <= sayi; i++){
+//     faktoryel = faktoryel * i
+// }
+
+// console.log(`Giridiginiz ${sayi} sayisinin faktoriyeli: ${faktoryel} sayisidir.`);
+
+
+//8) kullanicidan alinan x ve y degerlerini f(x,y) fonksiyonu seklinde hesapla
+//x>0, y<0 ise f(x,y) = 4x+2y+4
+//x>0 y=0 ise f(x,y) = 2x-y+3
+//x<0 y >0 ise f(x,y) = 3x+4y+3
+//x>0 y>0 ise f(x,y) = 6x + 6y +6
+
+// let x = parseInt(prompt(`Bir X degeri giriniz:`));
+// let y = parseInt(prompt(`Bir Y degeri giriniz:`));
+
+// let sonuc = 0;
+
+// if(x > 0 && y < 0 ){
+
+//    sonuc = 4 * x + 2 * y + 4;
+
+// }else if(x > 0 && y == 0){
+
+//    sonuc = 2 * x - y + 3;
+
+// }else if(x < 0 && y > 0){
+
+//     sonuc = 3 * x + 4 * y +3;
+
+// }else if(x > 0 && y > 0){
+//     sonuc = 6 * x + 6 * y + 6
+// }else{
+//     console.log(`hata var`);
+// }
+// console.log(`x: ${x} y:${y} ve sonuc ${sonuc}`);
+
+
+
+//9) 100 luk sistemde verilen notlari harfli sistemde gosteren uygulama yap
+FF=0-50
+DD=51-60
+DC=61-70
+BC=71-80
+BB=81-90
+BA=91-95
+AA=96-100
+
+let not = parseInt(prompt(`0-100 arasinda notunuzu giriniz: `));
+
+let harfDegeri = 0;
+let kaldin = "Kaldiniz😕";
+let gectin = "Gectin Tebrikler😀"
+
+if(not < 50 && not >= 0){
+
+    harfDegeri = "FF";
+    
+}else if(not < 60 && not > 50){
+
+    harfDegeri = "DD";
+
+}else if(not < 70 && not > 60){
+
+    harfDegeri = "DC";
+
+}else if(not < 80 && not > 70){
+
+    harfDegeri = "BC";
+
+}else if(not < 90 && not > 80){
+
+    harfDegeri = "BB";
+
+}else if(not < 95 && not > 90){
+
+    harfDegeri = "BA";
+    
+}else if(not <= 100 && not > 95){
+
+    harfDegeri = "AA";
+
+}
+
+if(harfDegeri == "FF"){
+    console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. Malesef ${kaldin}`);    
+}else if(harfDegeri !== "FF") {
+    console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
+}else if(not < 0 || not > 100){
+    console.log("Yanlis Deger Girdiniz");
+}
