@@ -370,54 +370,196 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 
 
 //9) 100 luk sistemde verilen notlari harfli sistemde gosteren uygulama yap
-FF=0-50
-DD=51-60
-DC=61-70
-BC=71-80
-BB=81-90
-BA=91-95
-AA=96-100
+// FF=0-50
+// DD=51-60
+// DC=61-70
+// BC=71-80
+// BB=81-90
+// BA=91-95
+// AA=96-100
 
-let not = parseInt(prompt(`0-100 arasinda notunuzu giriniz: `));
+// let not = parseInt(prompt(`0-100 arasinda notunuzu giriniz: `));
 
-let harfDegeri = 0;
-let kaldin = "Kaldiniz😕";
-let gectin = "Gectin Tebrikler😀"
+// let harfDegeri = 0;
+// let kaldin = "Kaldiniz😕";
+// let gectin = "Gectin Tebrikler😀"
 
-if(not < 50 && not >= 0){
+// if(not < 50 && not >= 0){
 
-    harfDegeri = "FF";
+//     harfDegeri = "FF";
     
-}else if(not < 60 && not > 50){
+// }else if(not < 60 && not > 50){
 
-    harfDegeri = "DD";
+//     harfDegeri = "DD";
 
-}else if(not < 70 && not > 60){
+// }else if(not < 70 && not > 60){
 
-    harfDegeri = "DC";
+//     harfDegeri = "DC";
 
-}else if(not < 80 && not > 70){
+// }else if(not < 80 && not > 70){
 
-    harfDegeri = "BC";
+//     harfDegeri = "BC";
 
-}else if(not < 90 && not > 80){
+// }else if(not < 90 && not > 80){
 
-    harfDegeri = "BB";
+//     harfDegeri = "BB";
 
-}else if(not < 95 && not > 90){
+// }else if(not < 95 && not > 90){
 
-    harfDegeri = "BA";
+//     harfDegeri = "BA";
     
-}else if(not <= 100 && not > 95){
+// }else if(not <= 100 && not > 95){
 
-    harfDegeri = "AA";
+//     harfDegeri = "AA";
 
+// }
+
+
+
+// if(harfDegeri == "FF"){
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. Malesef ${kaldin}`);    
+// }else if(harfDegeri == "DD") {
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
+// }else if(harfDegeri == "DC") {
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
+// }else if(harfDegeri == "BC") {
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
+// }else if(harfDegeri == "BB") {
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
+// }else if(harfDegeri == "BA") {
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
+// }else if(harfDegeri == "AA") {
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
+// }else{
+//     console.log("Girdiginiz degeri kontrol ediniz. Tekrar Deneyin");
+// }
+
+
+// 10) Carpim tablosunu olusturan bir uygulama yap
+
+
+
+
+//11)sicak soguk oyunu. kullanici sayiyi tahmin etmeye calisacak yaklastikca sicak uzaklastikca soguk uyarisi vermesi gereken bir program. Bu uygulamayi daha da gelisrtir. Ogrendikten sonra
+
+// let uretilenSayi = parseInt(Math.random() * 101);
+
+// let tahmin = -1;
+// let kacKere = 0;
+
+// while(tahmin != uretilenSayi){
+
+//     tahmin = parseInt(prompt("0-100 arasinda bir sayi giriniz:"));
+//     kacKere++;
+
+//     if(tahmin == uretilenSayi){
+//         console.log(`Tebrikler.. Tahmininiz: ${tahmin} ve Uretilen sayi: ${uretilenSayi}. Toplam ${kacKere} denemede bildiniz.`);
+//     }else if(tahmin < uretilenSayi){
+//         console.log(`Biraz daha cik`);
+//     }else{
+//         console.log(`Biraz daha in`);
+//     }
+
+//     if(kacKere > 10){
+//         console.log("Eziksinnnnn");
+//     }
+// }
+
+
+
+
+//12)Kullanicidan surekli olarak sayi alan ve kullanici 0 a basinca girilen sayiyi capan uygulama--- **** girilen sayilari gostermeyi de yap.
+
+// let girilenSayi = parseInt(prompt("Carpmak istediginiz sayilari giriniz cikis yapmak icin 0 a basiniz:"));
+// let carpimSonucu = 1;
+
+// while(girilenSayi != 0){
+//     carpimSonucu = carpimSonucu * girilenSayi;
+//     girilenSayi = parseInt(prompt("Carpmak istediginiz sayilari giriniz cikis yapmak icin 0 a basiniz:"));
+// }
+// console.log(`Girdiginiz sayilar ${girilenSayi} carpim sonucu: ${carpimSonucu} olarak hesaplanmistir`);
+
+
+//13) Kullanicidan alinan iki integar verirnin ebob bulan uygulama yap. orn 14 ve 35 icin ebob = 7 olmalidir.
+
+// let birinciSayi = parseInt(prompt(`Ilk sayiyi giriniz:`));
+// let ikinciSayi = parseInt(prompt(`Ikinci sayiyi giriniz:`));
+
+// let ebob = 1, kontrol = 2;
+
+// while(kontrol <= birinciSayi && kontrol <= ikinciSayi){
+//     if(birinciSayi % kontrol == 0 && ikinciSayi % kontrol == 0){
+//         ebob =kontrol;
+//     }
+//     kontrol++;
+// }
+// if(ebob == 1){
+//     console.log("Bu sayilar aralarinda asaldir");
+// }else{
+//     console.log("Bu sayilarin ortak boleni: " + ebob);
+// }
+
+// 1 den 20 ye kadar olan sayilarin toplami
+// let toplam = 0;
+
+// for(let i = 0; i <= 20; i++){
+    
+//     toplam = toplam + i
+// }
+// console.log(toplam);
+
+
+
+
+///////// FONKSIYONLAR ////////////////////////
+
+//basit fonksiyon
+// function selam(){
+//     console.log("Merhabalar");
+// }
+// selam(); // fonksiyonu bu sekilde ismi ile cagirarak calistirilir
+
+
+/////////
+
+
+// parametre alan fonksiyon
+
+// sayilariTopla(10,20);         //buradaki sayi alanina fonksiyonun argumani denir. Fonksiyon bu sekilde ismi ile cagirilir ister once ister sonra farketmez
+
+// function sayilariTopla(sayi1, sayi2){  /// buradaki sayi alanina ise fonksiyonun parametresi denir.
+//     console.log("Sayilarin toplami: " + (sayi1 +sayi2));
+// }
+
+
+/////////////
+
+
+// geri cagiralan fonksiyon
+
+let sayiToplam = sayilarinToplami(10,40); // Fonksiyon icerisinde kod calistirip bunu disarida bir degiskene atadik boylece surekli donen atanmis bir kodumuz oldu
+console.log("Toplam: " + sayiToplam); // Atadigimiz bu degiskeni artik nerede istersek kullanabiliriz
+
+function sayilarinToplami(sayi1, sayi2) {
+    console.log("Sayilarin Toplami :" + (sayi1 + sayi2));
+    return sayi1 + sayi2;  /// return ile fonksiyondan cikilir ve artik altindaki kodlara bakmaz ** bir nevi consolo.log islevi goruyor return.
 }
 
-if(harfDegeri == "FF"){
-    console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. Malesef ${kaldin}`);    
-}else if(harfDegeri !== "FF") {
-    console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
-}else if(not < 0 || not > 100){
-    console.log("Yanlis Deger Girdiniz");
+
+/// birden cok degisken icin fonksiyon atamasi yapip calistirabiliriz.
+
+let topla1 = birAraliktakiSayi(0, 20);
+let topla2 = birAraliktakiSayi(40, 70);
+
+console.log("1. Toplam:" + topla1 + "ve 2. Toplam:" + topla2);
+
+function birAraliktakiSayi(baslangicSayisi, bitisSAyisi) {
+    
+    let toplam = 0
+
+    for(let i = baslangicSayisi; i <= bitisSAyisi; i++){
+        toplam = toplam + i;
+    }
+    console.log(`Toplam: ${toplam}`);
+    return toplam;
 }
