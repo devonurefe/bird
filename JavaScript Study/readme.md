@@ -4,7 +4,7 @@
 
 # alt tusu ile secim yaparsak birden cok yere secim yapariz ve hepsine birlikte yazdirma ve sildirme yaptirabiliriz.
 
-# ctrl + yon tuslari = ile kelime kelime ilerleme yapilabilir/
+# ctrl + yon tuslari = ile kelime kelime ilerleme yapilabilir.
 
 # ctrl + shift + yon tuslari = ile ilerledigimizde hem ilerler hem de secim yapmis oluruz.
 

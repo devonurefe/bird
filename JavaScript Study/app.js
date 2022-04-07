@@ -69,6 +69,11 @@ console.log(artik)
 
 // kareAlan(kareKenarAlan);
 
+
+
+
+
+
 // Vize final hesaplama
 
 // let vize = prompt("Lutfen vize notunuzu giriniz:");
@@ -104,82 +109,7 @@ console.log(artik)
 
 
 
-//ternary kisa if gosterimi
-// let Hollanda = 17, Almanya = 25, Isvec = 11; 
 
-// nufus = (Hollanda > Almanya) ? (Almanya + Isvec) : (Hollanda - Isvec);
-
-// console.log(nufus);
-
-
-
-
-
-
-//switch case ornekleri
-
-// let haftaninKacinciGunu = parseInt(prompt("Haftanin kacinci gunundesiniz:", "1-7"));
-
-// switch (haftaninKacinciGunu){
-//     case 1: console.log("Pazartesi"); break;
-//     case 2: console.log("Sali"); break;
-//     case 3: console.log("Carsamba"); break;
-//     case 4: console.log("Persembe"); break;
-//     case 5: console.log("Cuma"); break;
-//     case 6: console.log("Cumartesi"); break;
-//     case 7: console.log("Pazar"); break;
-//     default: console.log("Yanlis veri girildi. Tekrar deneyiniz");
-// }
-
-
-
-//for - while - do while donguleri
-
-//for dongusu -- TEKRAR EDEN BIR KODUM VAR VE BUNUN KAC SEFER CALISACAGINIZ BILIYORSAM 'FOR' KULLAN
-
-// for (let i= 0; i < 15; i++){
-//     console.log("Ben for dongusuyum");  
-// }
-
-// //while dongusu -- BIR SARTIMIZ VAR VE KAC TANE OLDUGUNU BILMIYORSAM ' WHILE' KULLAN
-
-// let sayi = 5;
-// while (sayi < 20){
-//     console.log("Ben while dongusuyum");
-//     sayi++
-// }
-
-// //do while dongusu -- BIR KOD VAR ILK ONCE BU CALISSIN SONRA SART KONTROL EDILSIN DIYORSAK ' DO-WHILE' KULLAN (MENU GOSTER OLAYINDA OLDUGU GIBI)
-
-// let yas = 15
-// do{
-//     console.log("Ben do-while dongusuyum");
-//     yas++
-// }while(yas < 30); //SADECE WHILE DA NOKTALI VIRGUL KULLANILIR.
-
-
-
-
-// //break, continue, return kullanimi
-
-// //break --> break sartinin oldugu yerde donguden cikar
-// for(let i = 0; i < 15; i++){
-//     if(i == 9){
-//         break;
-//     }
-//     console.log("Ben Break im");
-// }
-
-// //continue --> continue oldugu sartinin oldugu ifadeyi atlar donguye devam eder
-// for(let i = 0; i < 20; i++){
-//     if(i == 11){
-//         continue;
-//     }
-//     console.log("Ben continue yuumm " +i);
-// }
-
-// Return kullanimi for icinde fonksiyon olursa olur aksi halde
-// illegal return hatasi alinir.
 
 
 // Rastgele sayi uretip Tahmin Etme oyunu ************** 🤑🤑🤑🤑🤑
@@ -309,6 +239,8 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // console.log(`1 den 100 e kadar olan sayilarin toplami sonucu : ${topla}`);
 
 
+
+
 //6) 1 den 10 kadar olan sayilari aralarinda virgukl olacak sekilde yazdir
 
 // let yazdir = "";
@@ -324,6 +256,8 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // console.log(yazdir);
 
 
+
+
 //7) klavyeden girilen bir sayinin faktoryeli alan uygulama
 
 // let sayi = parseInt(prompt(`faktoryel almak icin bir sayi giriniz; `));
@@ -335,6 +269,8 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // }
 
 // console.log(`Giridiginiz ${sayi} sayisinin faktoriyeli: ${faktoryel} sayisidir.`);
+
+
 
 
 //8) kullanicidan alinan x ve y degerlerini f(x,y) fonksiyonu seklinde hesapla
@@ -366,6 +302,7 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     console.log(`hata var`);
 // }
 // console.log(`x: ${x} y:${y} ve sonuc ${sonuc}`);
+
 
 
 
@@ -435,7 +372,11 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // }
 
 
+
+
 // 10) Carpim tablosunu olusturan bir uygulama yap
+
+
 
 
 
@@ -468,6 +409,8 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 
 
 
+
+
 //12)Kullanicidan surekli olarak sayi alan ve kullanici 0 a basinca girilen sayiyi capan uygulama--- **** girilen sayilari gostermeyi de yap.
 
 // let girilenSayi = parseInt(prompt("Carpmak istediginiz sayilari giriniz cikis yapmak icin 0 a basiniz:"));
@@ -478,6 +421,9 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     girilenSayi = parseInt(prompt("Carpmak istediginiz sayilari giriniz cikis yapmak icin 0 a basiniz:"));
 // }
 // console.log(`Girdiginiz sayilar ${girilenSayi} carpim sonucu: ${carpimSonucu} olarak hesaplanmistir`);
+
+
+
 
 
 //13) Kullanicidan alinan iki integar verirnin ebob bulan uygulama yap. orn 14 ve 35 icin ebob = 7 olmalidir.
@@ -511,55 +457,3 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 
 
 
-///////// FONKSIYONLAR ////////////////////////
-
-//basit fonksiyon
-// function selam(){
-//     console.log("Merhabalar");
-// }
-// selam(); // fonksiyonu bu sekilde ismi ile cagirarak calistirilir
-
-
-/////////
-
-
-// parametre alan fonksiyon
-
-// sayilariTopla(10,20);         //buradaki sayi alanina fonksiyonun argumani denir. Fonksiyon bu sekilde ismi ile cagirilir ister once ister sonra farketmez
-
-// function sayilariTopla(sayi1, sayi2){  /// buradaki sayi alanina ise fonksiyonun parametresi denir.
-//     console.log("Sayilarin toplami: " + (sayi1 +sayi2));
-// }
-
-
-/////////////
-
-
-// geri cagiralan fonksiyon
-
-let sayiToplam = sayilarinToplami(10,40); // Fonksiyon icerisinde kod calistirip bunu disarida bir degiskene atadik boylece surekli donen atanmis bir kodumuz oldu
-console.log("Toplam: " + sayiToplam); // Atadigimiz bu degiskeni artik nerede istersek kullanabiliriz
-
-function sayilarinToplami(sayi1, sayi2) {
-    console.log("Sayilarin Toplami :" + (sayi1 + sayi2));
-    return sayi1 + sayi2;  /// return ile fonksiyondan cikilir ve artik altindaki kodlara bakmaz ** bir nevi consolo.log islevi goruyor return.
-}
-
-
-/// birden cok degisken icin fonksiyon atamasi yapip calistirabiliriz.
-
-let topla1 = birAraliktakiSayi(0, 20);
-let topla2 = birAraliktakiSayi(40, 70);
-
-console.log("1. Toplam:" + topla1 + "ve 2. Toplam:" + topla2);
-
-function birAraliktakiSayi(baslangicSayisi, bitisSAyisi) {
-    
-    let toplam = 0
-
-    for(let i = baslangicSayisi; i <= bitisSAyisi; i++){
-        toplam = toplam + i;
-    }
-    console.log(`Toplam: ${toplam}`);
-    return toplam;
-}
