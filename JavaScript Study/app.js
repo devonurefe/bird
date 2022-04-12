@@ -1,27 +1,23 @@
 //Saniye hesaplama
 
-let second = 1200
-let minutes = second / 60
-let hour = minutes
+// let second = 1200
+// let minutes = second / 60
+// let hour = minutes
 
-console.log(`${hour} dakika 0 saniyedir.`)
+// console.log(`${hour} dakika 0 saniyedir.`)
 
-//fahreneit hesaplama
+// //fahreneit hesaplama
 
-let fahr = 100
-let celc = (5/9) * (fahr - 32)
+// let fahr = 100
+// let celc = (5/9) * (fahr - 32)
 
-console.log (celc)
+// console.log (celc)
 
-//artik yil hesaplama
+// //artik yil hesaplama
 
-let yil = 2020
-let artik = yil % 4
-console.log(artik)
-
-
-
-
+// let yil = 2020
+// let artik = yil % 4
+// console.log(artik)
 
 //Saniye hesaplama
 
@@ -40,18 +36,9 @@ console.log(artik)
 
 // console.log(`Girdiginiz derece ${Celc.toFixed(3)} dir`)
 
-
-
-
-
-
-
-
-
 //kare cevre - alan hesaplama
 
 // let kareKenar = parseInt(prompt("Karenin cevre hesaplamasi icin bir kenarini giriniz:"))
-
 
 // function kareCevre(kareKenar){
 //     let cevre = kareKenar * 4
@@ -69,11 +56,6 @@ console.log(artik)
 
 // kareAlan(kareKenarAlan);
 
-
-
-
-
-
 // Vize final hesaplama
 
 // let vize = prompt("Lutfen vize notunuzu giriniz:");
@@ -82,7 +64,7 @@ console.log(artik)
 // function notDurumu(vize, final){
 //     let sonuc = parseInt((vize * 0.4) + (final * 0.6));
 //     if (sonuc >= 50){
-//         alert(`Dersi gectiniz, Notunuz ${sonuc}.`)  
+//         alert(`Dersi gectiniz, Notunuz ${sonuc}.`)
 //     }else{
 //         alert(`Dersi gecemediniz, Notunuz ${sonuc}.`)
 //     }
@@ -104,13 +86,6 @@ console.log(artik)
 
 //     console.log("Yasitiz");
 // }
-
-
-
-
-
-
-
 
 // Rastgele sayi uretip Tahmin Etme oyunu ************** 🤑🤑🤑🤑🤑
 
@@ -143,10 +118,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 }
 */
 
-
-
-
-
 //UYGULAMALAR
 
 // 1) 3 SAYININ ORTALAMASI BULMA
@@ -158,8 +129,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // let sum = (parseInt(sayi1)  + parseInt(sayi2)  + parseInt(sayi3) ) / 3;
 
 // console.log(`Girdiginiz 3 sayinin ortalamasi: ${Math.floor(sum)} dir `);
-
-
 
 //2) KENARLARI GIRILEN UCGENIN CESIDINI BULMA
 
@@ -178,7 +147,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     console.log(`Ben bir senim :)`);
 // }
 
-
 //3) Vize Final gecme notu yapma
 
 // let vize = prompt("Vize notunuzu giriniz:");
@@ -193,7 +161,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     console.log(`Gecme notunuz: ${gecmeNotu}. Dersi gecemediniz. Bute kaldiniz`)
 //  }
 
-
 //4) Adimizi ekrana 5 kez yazdiran donguelri kullanma
 
 //for ile
@@ -203,7 +170,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // for(i = 0; i < 5; i++){
 //          console.log((i + 1) + " " + adim + " - for");
 // }
-
 
 // //while ile
 
@@ -223,11 +189,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     benim++
 // }while(benim < 5); // noktali virgul onemli do while icin
 
-
-
-
-
-
 //5) 1 den 100 e kadar sayilarin toplamini yazdir
 
 // let topla = 0
@@ -237,9 +198,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     //topla += i; ==> bu da 2. gosterim.
 // }
 // console.log(`1 den 100 e kadar olan sayilarin toplami sonucu : ${topla}`);
-
-
-
 
 //6) 1 den 10 kadar olan sayilari aralarinda virgukl olacak sekilde yazdir
 
@@ -251,12 +209,9 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     }else{
 //         yazdir = yazdir + i
 //     }
-    
+
 // }
 // console.log(yazdir);
-
-
-
 
 //7) klavyeden girilen bir sayinin faktoryeli alan uygulama
 
@@ -269,9 +224,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // }
 
 // console.log(`Giridiginiz ${sayi} sayisinin faktoriyeli: ${faktoryel} sayisidir.`);
-
-
-
 
 //8) kullanicidan alinan x ve y degerlerini f(x,y) fonksiyonu seklinde hesapla
 //x>0, y<0 ise f(x,y) = 4x+2y+4
@@ -303,9 +255,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // }
 // console.log(`x: ${x} y:${y} ve sonuc ${sonuc}`);
 
-
-
-
 //9) 100 luk sistemde verilen notlari harfli sistemde gosteren uygulama yap
 // FF=0-50
 // DD=51-60
@@ -324,7 +273,7 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // if(not < 50 && not >= 0){
 
 //     harfDegeri = "FF";
-    
+
 // }else if(not < 60 && not > 50){
 
 //     harfDegeri = "DD";
@@ -344,17 +293,15 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // }else if(not < 95 && not > 90){
 
 //     harfDegeri = "BA";
-    
+
 // }else if(not <= 100 && not > 95){
 
 //     harfDegeri = "AA";
 
 // }
 
-
-
 // if(harfDegeri == "FF"){
-//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. Malesef ${kaldin}`);    
+//     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. Malesef ${kaldin}`);
 // }else if(harfDegeri == "DD") {
 //     console.log(`Girdiginiz ${not} degerinde notunuzun harf karsiligi ${harfDegeri} olarak hesaplanmistir. ${gectin}`);
 // }else if(harfDegeri == "DC") {
@@ -371,15 +318,7 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     console.log("Girdiginiz degeri kontrol ediniz. Tekrar Deneyin");
 // }
 
-
-
-
 // 10) Carpim tablosunu olusturan bir uygulama yap
-
-
-
-
-
 
 //11)sicak soguk oyunu. kullanici sayiyi tahmin etmeye calisacak yaklastikca sicak uzaklastikca soguk uyarisi vermesi gereken bir program. Bu uygulamayi daha da gelisrtir. Ogrendikten sonra
 
@@ -406,11 +345,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     }
 // }
 
-
-
-
-
-
 //12)Kullanicidan surekli olarak sayi alan ve kullanici 0 a basinca girilen sayiyi capan uygulama--- **** girilen sayilari gostermeyi de yap.
 
 // let girilenSayi = parseInt(prompt("Carpmak istediginiz sayilari giriniz cikis yapmak icin 0 a basiniz:"));
@@ -421,10 +355,6 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 //     girilenSayi = parseInt(prompt("Carpmak istediginiz sayilari giriniz cikis yapmak icin 0 a basiniz:"));
 // }
 // console.log(`Girdiginiz sayilar ${girilenSayi} carpim sonucu: ${carpimSonucu} olarak hesaplanmistir`);
-
-
-
-
 
 //13) Kullanicidan alinan iki integar verirnin ebob bulan uygulama yap. orn 14 ve 35 icin ebob = 7 olmalidir.
 
@@ -449,11 +379,112 @@ if(uretilenSayi === kullanicininGirdigiSayi){
 // let toplam = 0;
 
 // for(let i = 0; i <= 20; i++){
-    
+
 //     toplam = toplam + i
 // }
 // console.log(toplam);
 
+/// *** *** //
+/// *** *** //
+/// *** *** //
+/// *** *** //
+/// *** *** //
+/// *** *** //
+/// *** *** //
+// ARRAY VE OBJECT SORULARI **////
 
+// ** SORU -1 **//
+// Sehirler diye bir array olustur
+// her array elemani sehirler ile ilgili bilgiler icermeli
+//bu bilgiler sehrin adi, plaka, nufus olabilir
 
+//array olstuktan sonra sehir adlarina gore a-z sirala ve yazdir.
 
+// const sehirler = [
+//   { isim: "sakarya", plaka: 54, nufus: 750000 },
+//   { isim: "istanbul", plaka: 34, nufus: 15000000 },
+//   { isim: "ankara", plaka: 06, nufus: 5000000 },
+//   { isim: "izmir", plaka: 35, nufus: 3500000 },
+// ];
+
+// integer ifadelerin siralanmasi:
+// const adanZyeSirala = sehirler.sort(function (a, b) {
+//   return a.nufus - b.nufus;
+// });
+// console.log(adanZyeSirala);
+
+// metin iceren objelerin siarlanmasi:
+// const adanZyeSiralaMetin = sehirler.sort(function (a, b) {
+//   if (a.isim > b.isim) {
+//     return 1;
+//   } else if (a.isim < b.isim) {
+//     return -1;
+//   } else return 0;
+// });
+// console.log(adanZyeSiralaMetin);
+
+//*//
+//***//
+//****//
+// ** SORU -2 **//
+// kullanicidan alinan degere kadar olan sayilar dizisini fibonacci seklinde yazdirin
+// fibonacci ornek 0 1 1 2 3 5 8 13 21....
+
+// let fibonacci = parseInt(prompt(`Bir sayi giriniz:`));
+// let n1 = 0,
+//   n2 = 1,
+//   sonrakiSayi;
+
+// for (let i = 1; i <= fibonacci; i++) {
+//   sonrakiSayi = n1 + n2;
+//   n1 = n2;
+//   n2 = sonrakiSayi;
+//   console.log(n1);
+// }
+
+//*//
+//***//
+//****//
+//Soru 3 **
+//ogrencileri tutan bir array olustur.
+//her ogrenci objsinde ad soyad ve id olmali
+//id numarasi cift olan ogrencilerin ad soyadini birlestirilmis halde tutan diziyi
+//a dan z ye sirali ekrana yazdir
+//map filter sort metodlarini kullan
+//islem bittikten sonra kodlari arrow function ve zincirleme haline donustur
+const ogrenciler = [
+  { id: 45, ad: "Ahmet", soyad: "Kara" },
+  { id: 15, ad: "Yunus", soyad: "Parlak" },
+  { id: 30, ad: "Umut", soyad: "Para" },
+  { id: 22, ad: "Osman", soyad: "Nara" },
+  { id: 57, ad: "Murat", soyad: "Narap" },
+  { id: 82, ad: "Tarik", soyad: "Ak" },
+  { id: 16, ad: "Ismail", soyad: "Harran" },
+  { id: 37, ad: "Ali", soyad: "Sara" },
+  { id: 81, ad: "Mehmet", soyad: "Varan" },
+];
+// const odev = ogrenciler.sort(function (a, b) {
+//   return a.id - b.id;
+// });
+// console.log(ogrenciler); // burasi benim yaptigim bolumdu
+
+// const idsiCiftolanOgrenciDizisi = ogrenciler.filter(function (ogrenci) {
+//   return ogrenci.id % 2 === 0;
+// });
+// console.log(idsiCiftolanOgrenciDizisi); // burada cift olanlari filtrelerdik
+
+// const isimler = idsiCiftolanOgrenciDizisi.map(function (ogrenci) {
+//   return ogrenci.ad + " " + ogrenci.soyad;
+// });
+
+// isimler.sort().reverse(); // reverse tersini alir
+// console.log(isimler); // cift olarak filtrelenenleri aldik map ile
+
+//**Kisa versiyon */
+// Tum bu islemlerin zincirleme iel kisa versiyonu:
+
+const sonucDizi = ogrenciler
+  .filter((ogrenci) => ogrenci.id % 2 === 0)
+  .map((ogrenci) => ogrenci.ad + " " + ogrenci.soyad)
+  .sort();
+console.log(sonucDizi);
